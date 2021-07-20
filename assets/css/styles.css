@@ -321,11 +321,11 @@ img {
   width: 50%;
 }
 .box {
-  width: 1200px;
+  width: 960px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 15px;
-  margin: 0 auto;
+  grid-gap: 13px;
+  /* margin: 0 auto; */
 }
 .card {
   position: relative;
@@ -402,7 +402,7 @@ img {
 .card .details h2 span {
   font-weight: 500;
   font-size: 16px;
-  color: #f38695;
+  color: #c94539;
   display: block;
   margin-top: 5px;
 }
